@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="9.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.1" />
+      <PackageReference Include="Swashbuckle" Version="5.6.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.0.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.0.0" />
+      <PackageReference Include="Swashbuckle.Core" Version="5.6.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DotNetSample.Application\DotNetSample.Application.csproj" />
+      <ProjectReference Include="..\DotNetSample.Infra.Repository\DotNetSample.Infra.Repository.csproj" />
+    </ItemGroup>
+
+
+</Project>
